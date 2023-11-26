@@ -16,7 +16,7 @@ Config.Accounts             = {
 	}
 }
 
-Config.StartingAccountMoney = { bank = 50000 }
+Config.StartingAccountMoney = { bank = 25000 }
 
 Config.StartingInventoryItems = false -- table/false
 
@@ -56,7 +56,7 @@ Config.DisableNPCDrops           = false -- stops NPCs from dropping weapons on 
 Config.DisableDispatchServices   = false -- Disable Dispatch services
 Config.DisableScenarios          = false -- Disable Scenarios
 Config.DisableWeaponWheel        = false -- Disables default weapon wheel
-Config.DisableAimAssist          = false -- disables AIM assist (mainly on controllers)
+Config.DisableAimAssist          = true -- disables AIM assist (mainly on controllers)
 Config.DisableVehicleSeatShuff   = false -- Disables vehicle seat shuff
 Config.DisableDisplayAmmo  		 = false -- Disable ammunition display
 Config.RemoveHudComponents       = {
