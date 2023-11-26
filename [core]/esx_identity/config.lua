@@ -10,7 +10,7 @@ Config.UseDeferrals    = false
 
 -- These values are for the date format in the registration menu
 -- Choices: DD/MM/YYYY | MM/DD/YYYY | YYYY/MM/DD
-Config.DateFormat      = 'DD/MM/YYYY'
+Config.DateFormat      = 'MM/DD/YYYY'
 
 -- These values are for the second input validation in server/main.lua
 Config.MaxNameLength   = 20                          -- Max Name Length.
