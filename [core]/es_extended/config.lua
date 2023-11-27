@@ -65,9 +65,9 @@ Config.RemoveHudComponents       = {
 	[3] = false,                         --CASH
 	[4] = false,                         --MP_CASH
 	[5] = false,                         --MP_MESSAGE
-	[6] = false,                         --VEHICLE_NAME
-	[7] = false,                         -- AREA_NAME
-	[8] = false,                         -- VEHICLE_CLASS
+	[6] = true,                         --VEHICLE_NAME
+	[7] = true,                         -- AREA_NAME
+	[8] = true,                         -- VEHICLE_CLASS
 	[9] = false,                         --STREET_NAME
 	[10] = false,                        --HELP_TEXT
 	[11] = false,                        --FLOATING_HELP_TEXT_1
@@ -78,10 +78,10 @@ Config.RemoveHudComponents       = {
 	[16] = false,                        --RADIO_STATIONS
 	[17] = false,                        --SAVING_GAME,
 	[18] = false,                        --GAME_STREAM
-	[19] = false,                        --WEAPON_WHEEL
-	[20] = false,                        --WEAPON_WHEEL_STATS
+	[19] = true,                        --WEAPON_WHEEL
+	[20] = true,                        --WEAPON_WHEEL_STATS
 	[21] = false,                        --HUD_COMPONENTS
-	[22] = false,                        --HUD_WEAPONS
+	[22] = true,                        --HUD_WEAPONS
 }
 
 Config.SpawnVehMaxUpgrades       = true       -- admin vehicles spawn with max vehcle settings
